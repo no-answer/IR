@@ -4,7 +4,6 @@
 
 数据集
 目前给定文档集D，训练集与验证集，训练集和验证集中包含query与对应的document label，注意一个query可能有多个对应的document。
-在期末最终测试之前请尽可能地提升模型检索的精度。期末测试的时候将会释放测试集对模型进行最终测试，期末之前测试集不可见。
 文档集文档数量	训练集查询数量	验证集查询数量	测试集查询数量
 50万	3万	0.3万	0.3万
 文档集D，训练集，验证集和测试集分别对应以下三个文件：documents.json，trainingset.json ，validationset.json和testset.json。
